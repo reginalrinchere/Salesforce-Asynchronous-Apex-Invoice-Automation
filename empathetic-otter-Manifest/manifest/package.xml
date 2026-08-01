@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Apex Classes -->
+    <types>
+        <members>TriggerHandler</members>
+        <members>OpportunityTriggerHandler</members>
+        <members>OpportunityService</members>
+        <members>InvoiceQueueable</members>
+        <members>IntegrationLogger</members>
+        <members>OpportunityBatchUpdate</members>
+        <members>NightlyOpportunityCleanup</members>
+        <members>InvoiceRequest</members>
+        <members>CustomerApi</members>
+        <members>InvoiceCalloutMock</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Apex Triggers -->
+    <types>
+        <members>OpportunityTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <!-- Platform Event and Custom Logging Object -->
+    <types>
+        <members>Invoice_Event__e</members>
+        <members>Integration_Log__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <version>67.0</version>
+
+</Package>
