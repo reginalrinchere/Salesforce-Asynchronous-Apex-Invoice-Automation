@@ -9,6 +9,6 @@ opp.Description ='Archived';
 update scope;
 }
 public void finish(Database.BatchableContext bc) {
-System.debug('Batch Complet');
+System.debug('Batch Complete');
 }
 }
